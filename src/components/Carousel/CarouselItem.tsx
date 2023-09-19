@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { MoviesType } from "../../../data/movies";
 import { getRandomNumber } from "../../utils/getRandomNumber";
-import styles from "./../../styles/components/carousel-item.module.scss";
+import styles from "../../styles/components/carousel-item.module.scss";
 
 type Props = {
   movie: MoviesType;
