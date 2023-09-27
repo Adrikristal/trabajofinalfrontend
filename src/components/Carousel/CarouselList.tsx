@@ -3,8 +3,8 @@ import styles from "./../../styles/components/carousel-list.module.scss";
 import CarouselItem from "./CarouselItem";
 
 const CarouselList = () => {
-  const movies = moviesData.filter((movie) => movie.type === MovieType.Movie);
-  const tvShows = moviesData.filter((movie) => movie.type !== MovieType.Movie);
+  const movies = moviesData.filter((item) => item.type === MovieType.Movie);
+  const tvShows = moviesData.filter((item) => item.type === MovieType.Series);
   return (
     <div className={styles["carousel-list"]}>
       <div className={styles["carousel-wrapper"]}>
